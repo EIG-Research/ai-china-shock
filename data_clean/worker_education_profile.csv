@@ -1,0 +1,25 @@
+group_id,bucket,share
+china_top,HS or Less,0.5815328585710535
+china_top,Some College / AA,0.2019674284721558
+china_top,Bachelor's,0.15243603030720163
+china_top,Graduate,0.06406368264958912
+gpt_ge_50,HS or Less,0.17199320486422787
+gpt_ge_50,Some College / AA,0.2446001259404308
+gpt_ge_50,Bachelor's,0.40067183402121836
+gpt_ge_50,Graduate,0.182734835174123
+gpt_ge_60,HS or Less,0.15745390726335715
+gpt_ge_60,Some College / AA,0.2693456317565688
+gpt_ge_60,Bachelor's,0.39315711432189265
+gpt_ge_60,Graduate,0.1800433466581815
+gpt_ge_70,HS or Less,0.14421608939987604
+gpt_ge_70,Some College / AA,0.2478194292687348
+gpt_ge_70,Bachelor's,0.39411812175818745
+gpt_ge_70,Graduate,0.21384635957320178
+gpt_ge_80,HS or Less,0.13629282017104605
+gpt_ge_80,Some College / AA,0.22686510277111044
+gpt_ge_80,Bachelor's,0.4023160357966786
+gpt_ge_80,Graduate,0.23452604126116489
+gpt_ge_90,HS or Less,0.06717443235750771
+gpt_ge_90,Some College / AA,0.1921488530769519
+gpt_ge_90,Bachelor's,0.5136843236423388
+gpt_ge_90,Graduate,0.22699239092320156

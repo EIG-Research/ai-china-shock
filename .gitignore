@@ -1,0 +1,28 @@
+.DS_Store
+
+# Python environment / cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.cache/
+
+# Local secrets / config
+.env
+*.pem
+*.key
+
+# Logs / temporary files
+*.log
+tmp/
+temp/
+
+# Large raw files excluded from GitHub repo
+data_raw/2022_annual_singlefile.zip
+data_raw/cps_2019_to_2025.csv.gz
+data_raw/cps_91_92_93.csv.gz
+
+# Large side folder not included in blog repo
+unemployment/

@@ -1,0 +1,59 @@
+China worker cutoff industry additions
+The main cutoff uses the exact 4.6714% worker-share cutoff in the current 25-64 CPS sample. China import penetration is 1991-2007 China import growth divided by 1991 domestic absorption; chart values are shown in percentage points.
+
+1.34% includes 6 industries total:
+- Footwear except rubber/plastic
+- Toys / amusement / sporting goods
+- Leather products except footwear
+- Computers and related equipment
+- Radio / TV / communications equipment
+- Furniture and fixtures
+
+1.88% adds 3 industries:
+- Household appliances
+- Pottery and related products
+- Misc. fabricated textile products
+
+2.24% adds 2 industries:
+- Not specified electrical machinery
+- Misc. manufacturing industries
+
+2.37% adds 1 industry:
+- Apparel & accessories
+
+3.29% adds 2 industries:
+- Cutlery / handtools / hardware
+- Construction / material handling machines
+
+4.67% adds 3 industries:
+- Not specified machinery
+- Electrical machinery n.e.c.
+- Tires and inner tubes
+
+9.94% adds 26 industries:
+- Office & accounting machines
+- Misc. wood products
+- Misc. fabricated metal products
+- Machinery n.e.c.
+- Screw machine products
+- Cycles & misc. transportation equipment
+- Watches and clocks
+- Misc. nonmetallic mineral products
+- Not specified manufacturing
+- Other rubber products
+- Medical / dental / optical instruments
+- Other primary metal industries
+- Glass and glass products
+- Steelworks and rolling mills
+- Not specified metal industries
+- Misc. plastics products
+- Metalworking machinery
+- Knitting mills
+- Misc. textile mill products
+- Misc. paper & pulp products
+- Structural clay products
+- Sawmills / millwork
+- Agricultural chemicals
+- Scientific & controlling instruments
+- Cement / concrete / gypsum / plaster
+- Motor vehicles and equipment

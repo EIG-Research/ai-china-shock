@@ -1,0 +1,511 @@
+unit_id,worker_weight,occupation,soc_pattern,gpt_exposure,selected_ge_50,selected_ge_60,selected_ge_70,selected_ge_80,selected_ge_90
+10,36201617.4486,Chief executives,11-1011,0.5077777777777778,True,False,False,False,False
+20,24954544.1391,General and operations managers,11-1021,0.4807692307692308,False,False,False,False,False
+40,1514062.6664,Advertising and promotions managers,11-2011,0.4767441860465116,False,False,False,False,False
+51,13478310.3851,Marketing managers,11-2021,0.5,True,False,False,False,False
+52,12276836.8643,Sales managers,11-2022,0.45,False,False,False,False,False
+60,2574724.4332,Public relations and fundraising managers,11-2030,0.5544317300232738,True,False,False,False,False
+101,1432799.778,Administrative services managers,11-3012,0.3913043478260869,False,False,False,False,False
+102,3008504.29,Facilities managers,11-3013,0.40016233766233766,False,False,False,False,False
+110,16866093.9718,Computer and information systems managers,11-3021,0.5303030303030303,True,False,False,False,False
+120,29659682.296800002,Financial managers,11-3031,0.4850552306692657,False,False,False,False,False
+135,397567.3711,Compensation and benefits managers,11-3111,0.513157894736842,True,False,False,False,False
+136,6336235.9459999995,Human resources managers,11-3121,0.48,False,False,False,False,False
+137,1307453.5261,Training and development managers,11-3131,0.5,True,False,False,False,False
+140,5904898.9564,Industrial production managers,11-3051,0.40571870150289957,False,False,False,False,False
+150,5279809.3056,Purchasing managers,11-3061,0.5857142857142857,True,False,False,False,False
+160,7155251.598999999,"Transportation, storage, and distribution managers",11-3071,0.486525974025974,False,False,False,False,False
+205,14164070.1314,"Farmers, ranchers, and other agricultural managers",11-9013,0.3673469387755101,False,False,False,False,False
+220,22279740.8652,Construction managers,11-9021,0.4444444444444445,False,False,False,False,False
+230,21165761.2748,Education and childcare administrators,11-9030,0.4324629700496358,False,False,False,False,False
+300,4236748.2088,Architectural and engineering managers,11-9041,0.4426108374384236,False,False,False,False,False
+310,22318501.7633,Food service managers,11-9051,0.4166666666666666,False,False,False,False,False
+335,1092760.7974,Entertainment and recreation managers,11-9070,0.37623310193642673,False,False,False,False,False
+340,2353892.0073,Lodging managers,11-9081,0.4565217391304347,False,False,False,False,False
+350,17507778.673,Medical and health services managers,11-9111,0.4285714285714285,False,False,False,False,False
+360,557086.7337,Natural sciences managers,11-9121,0.5306967984934087,True,False,False,False,False
+410,15985175.9408,"Property, real estate, and community association managers",11-9141,0.4431818181818182,False,False,False,False,False
+420,8594198.5092,Social and community service managers,11-9151,0.3928571428571428,False,False,False,False,False
+425,391863.55700000003,Emergency management directors,11-9161,0.4222222222222222,False,False,False,False,False
+440,115704699.2259,"Managers, all other",11-9199,0.4912673640410586,False,False,False,False,False
+500,803496.7757,"Agents and business managers of artists, performers, and athletes",13-1011,0.5434782608695652,True,False,False,False,False
+510,149731.8269,"Buyers and purchasing agents, farm products",13-1021,0.5277777777777778,True,False,False,False,False
+520,3463390.4283,"Wholesale and retail buyers, except farm products",13-1022,0.4666666666666667,False,False,False,False,False
+530,5260219.9075,"Purchasing agents, except wholesale, retail, and farm products",13-1023,0.4736842105263157,False,False,False,False,False
+540,7857183.1939,"Claims adjusters, appraisers, examiners, and investigators",13-1030,0.5194963044073365,True,False,False,False,False
+565,6280977.4552,Compliance officers,13-1041,0.5263042749310427,True,False,False,False,False
+600,2751634.5664,Cost estimators,13-1051,0.5,True,False,False,False,False
+630,19295240.3504,Human resources workers,13-1070,0.6362380992565204,True,True,False,False,False
+640,1529162.8602,"Compensation, benefits, and job analysis specialists",13-1141,0.4736842105263157,False,False,False,False,False
+650,3507898.1639,Training and development specialists,13-1151,0.5526315789473684,True,False,False,False,False
+700,3210684.0093,Logisticians,13-1081,0.5278605318327264,True,False,False,False,False
+705,17975797.1511,Project management specialists,13-1082,0.55,True,False,False,False,False
+710,20883267.333,Management analysts,13-1111,0.4047619047619047,False,False,False,False,False
+725,2677661.7784,"Meeting, convention, and event planners",13-1121,0.4864864864864865,False,False,False,False,False
+726,1815892.5232,Fundraisers,13-1131,0.5192307692307693,True,False,False,False,False
+735,8442169.5002,Market research analysts and marketing specialists,13-1161,0.5245901639344263,True,False,False,False,False
+750,10366604.8282,"Business operations specialists, all other",13-1199,0.5828407660281357,True,False,False,False,False
+800,34500200.734400004,Accountants and auditors,13-2011,0.56,True,False,False,False,False
+810,1642585.618,Property appraisers and assessors,13-2020,0.53125,True,False,False,False,False
+820,1269452.3177,Budget analysts,13-2031,0.52,True,False,False,False,False
+830,955354.0941000001,Credit analysts,13-2041,0.5555555555555556,True,False,False,False,False
+845,7703972.1585,Financial and investment analysts,13-2051,0.4615384615384615,False,False,False,False,False
+850,11024768.3397,Personal financial advisors,13-2052,0.5,True,False,False,False,False
+860,2526230.3447000002,Insurance underwriters,13-2053,0.5714285714285714,True,False,False,False,False
+900,391556.1762,Financial examiners,13-2061,0.5,True,False,False,False,False
+910,8978569.3951,Credit counselors and loan officers,13-2070,0.5941626650660264,True,False,False,False,False
+930,1439815.509,"Tax examiners and collectors, and revenue agents",13-2081,0.5806451612903225,True,False,False,False,False
+940,1693362.1284,Tax preparers,13-2082,0.625,True,True,False,False,False
+960,1629927.8412000001,Other financial specialists,13-20XX,0.5475652073310062,True,False,False,False,False
+1005,903670.8078,Computer and information research scientists,15-1221,0.6346153846153847,True,True,False,False,False
+1006,10385299.9592,Computer systems analysts,15-1211,0.6174242424242424,True,True,False,False,False
+1007,3536949.0006,Information security analysts,15-1212,0.6521739130434783,True,True,False,False,False
+1010,9590769.7438,Computer programmers,15-1251,0.95,True,True,True,True,True
+1021,44083928.9285,Software developers,15-1252,0.8684210526315789,True,True,True,True,False
+1022,1697526.6314,Software quality assurance analysts and testers,15-1253,0.8771929824561403,True,True,True,True,False
+1031,1774028.825,Web developers,15-1254,0.9326923076923076,True,True,True,True,True
+1032,1614683.9657,Web and digital interface designers,15-1255,0.75,True,True,True,False,False
+1050,14352472.031,Computer support specialists,15-1230,0.6151794658652512,True,True,False,False,False
+1065,2783117.0845999997,Database administrators and architects,15-124X,0.7468997263704851,True,True,True,False,False
+1105,4833723.5832,Network and computer systems administrators,15-1244,0.7297297297297298,True,True,True,False,False
+1106,2304904.5831,Computer network architects,15-1241,0.6352227393617021,True,True,False,False,False
+1108,19867395.3158,"Computer occupations, all other",15-1299,0.7357861863332168,True,True,True,False,False
+1200,625247.4725,Actuaries,15-2011,0.5,True,False,False,False,False
+1220,2952963.1173,Operations research analysts,15-2031,0.6290322580645161,True,True,False,False,False
+1240,6957460.5373,Other mathematical science occupations,15-20XX,0.6684633780297723,True,True,False,False,False
+1305,4123329.536,"Architects, except landscape and naval",17-1011,0.4883720930232558,False,False,False,False,False
+1306,633000.4351,Landscape architects,17-1012,0.4210526315789473,False,False,False,False,False
+1310,921668.1476,"Surveyors, cartographers, and photogrammetrists",17-1020,0.5119841127098322,True,False,False,False,False
+1320,3268424.5468,Aerospace engineers,17-2011,0.5714285714285714,True,False,False,False,False
+1340,521836.0552,Bioengineers and biomedical engineers,17-2031,0.5897435897435898,True,False,False,False,False
+1350,1491716.8572,Chemical engineers,17-2041,0.4615384615384615,False,False,False,False,False
+1360,9473290.5615,Civil engineers,17-2051,0.48214285714285715,False,False,False,False,False
+1400,1990957.6859,Computer hardware engineers,17-2061,0.7272727272727273,True,True,True,False,False
+1410,6572462.8404,Electrical and electronics engineers,17-2070,0.5816860088947007,True,False,False,False,False
+1420,813533.0361,Environmental engineers,17-2081,0.5555555555555556,True,False,False,False,False
+1430,4688454.1363,"Industrial engineers, including health and safety",17-2110,0.5511729678113995,True,False,False,False,False
+1440,217092.5893,Marine engineers and naval architects,17-2121,0.4210526315789473,False,False,False,False,False
+1450,952484.1687,Materials engineers,17-2131,0.4878048780487805,False,False,False,False,False
+1460,7878966.8195,Mechanical engineers,17-2141,0.5312935096519228,True,False,False,False,False
+1520,520156.3217,Petroleum engineers,17-2171,0.5277777777777778,True,False,False,False,False
+1530,14128032.6776,"Engineers, all other",17-2199,0.5226496200276688,True,False,False,False,False
+1541,779142.2035000001,Architectural and civil drafters,17-3011,0.54,True,False,False,False,False
+1545,1798107.7941,Other drafters,17-301X,0.534448632218845,True,False,False,False,False
+1551,1643421.9889,Electrical and electronic engineering technologists and technicians,17-3023,0.4056603773584905,False,False,False,False,False
+1555,6800812.7277,"Other engineering technologists and technicians, except drafters",17-302X,0.40997156866853757,False,False,False,False,False
+1560,1310843.9283,Surveying and mapping technicians,17-3031,0.5,True,False,False,False,False
+1600,538732.8615,Agricultural and food scientists,19-1010,0.4360216656728284,False,False,False,False,False
+1610,2203249.0226,Biological scientists,19-1020,0.48910063490045375,False,False,False,False,False
+1640,546863.2236,Conservation scientists and foresters,19-1030,0.41601878386479973,False,False,False,False,False
+1650,3191266.9973,Medical scientists,19-1040,0.5171576734076734,True,False,False,False,False
+1700,469140.8187,Astronomers and physicists,19-2010,0.7286931818181819,True,True,True,False,False
+1710,256594.8154,Atmospheric and space scientists,19-2021,0.5652173913043478,True,False,False,False,False
+1720,1804470.3167,Chemists and materials scientists,19-2030,0.3893612565445026,False,False,False,False,False
+1745,800438.3595,"Environmental scientists and specialists, including health",19-2041,0.5217162952137376,True,False,False,False,False
+1750,982296.977,"Geoscientists and hydrologists, except geographers",19-204X,0.5092384124168763,True,False,False,False,False
+1760,8660239.2208,"Physical scientists, all other",19-2099,0.4565217391304347,False,False,False,False,False
+1800,509206.9623,Economists,19-3011,0.5526315789473684,True,False,False,False,False
+1821,267123.7807,Clinical and counseling psychologists,19-3033,0.3703703703703703,False,False,False,False,False
+1822,1179601.6211,School psychologists,19-3034,0.3918918918918919,False,False,False,False,False
+1825,2884546.1939,Other psychologists,19-303X,0.4034176177155629,False,False,False,False,False
+1840,668960.765,Urban and regional planners,19-3051,0.4772727272727273,False,False,False,False,False
+1860,1302848.3123,Miscellaneous social scientists and related workers,19-3090,0.5031624979617461,True,False,False,False,False
+1900,750104.8132,Agricultural and food science technicians,19-4010,0.3822191697191697,False,False,False,False,False
+1910,370860.0318,Biological technicians,19-4021,0.4166666666666666,False,False,False,False,False
+1920,963337.6577,Chemical technicians,19-4031,0.3928571428571428,False,False,False,False,False
+1935,406607.7942,Environmental science and geoscience technicians,19-4040,0.44613198289581396,False,False,False,False,False
+1970,5367668.9041,"Other life, physical, and social science technicians",19-40XX,0.4498547727485776,False,False,False,False,False
+1980,1526002.4609,Occupational health and safety specialists and technicians,19-5010,0.34550518925518925,False,False,False,False,False
+2001,2669948.6941,Substance abuse and behavioral disorder counselors,21-1011,0.2,False,False,False,False,False
+2002,8166334.8727,"Educational, guidance, and career counselors and advisors",21-1012,0.2894736842105263,False,False,False,False,False
+2003,875208.9542,Marriage and family therapists,21-1013,0.1111111111111111,False,False,False,False,False
+2004,4293352.9258,Mental health counselors,21-1014,0.2549019607843137,False,False,False,False,False
+2005,344655.4992,Rehabilitation counselors,21-1015,0.3548387096774194,False,False,False,False,False
+2011,1437588.5145,"Child, family, and school social workers",21-1021,0.2428571428571428,False,False,False,False,False
+2012,1729503.75,Healthcare social workers,21-1022,0.34375,False,False,False,False,False
+2013,391293.0968,Mental health and substance abuse social workers,21-1023,0.2708333333333333,False,False,False,False,False
+2015,1821436.1623,Probation officers and correctional treatment specialists,21-1092,0.3947368421052631,False,False,False,False,False
+2016,4233374.3497,Social and human service assistants,21-1093,0.3928571428571428,False,False,False,False,False
+2025,2100327.1419,Other community and social service specialists,21-109X,0.4008172426642289,False,False,False,False,False
+2040,7964738.4902,Clergy,21-2011,0.3333333333333333,False,False,False,False,False
+2050,1438032.7167,"Directors, religious activities and education",21-2021,0.4393939393939394,False,False,False,False,False
+2100,24469923.7818,Lawyers,23-1011,0.425,False,False,False,False,False
+2105,479075.4745,Judicial law clerks,23-1012,0.5172413793103449,True,False,False,False,False
+2145,9032092.7402,Paralegals and legal assistants,23-2011,0.525,True,False,False,False,False
+2170,2243234.9659,"Title examiners, abstractors, and searchers",23-2093,0.5714285714285714,True,False,False,False,False
+2205,22447823.9846,Postsecondary teachers,25-1000,0.47750767479720985,False,False,False,False,False
+2300,12198835.1008,Preschool and kindergarten teachers,25-2010,0.22824965282466522,False,False,False,False,False
+2310,72039836.5637,Elementary and middle school teachers,25-2020,0.3222198903000127,False,False,False,False,False
+2320,21509265.928600002,Secondary school teachers,25-2030,0.33333333333333326,False,False,False,False,False
+2330,8086347.9188,Special education teachers,25-2050,0.31502575266620203,False,False,False,False,False
+2350,1810439.5957,Tutors,25-3041,0.5428571428571428,True,False,False,False,False
+2360,13966285.1067,Other teachers and instructors,25-30XX,0.3952947071283468,False,False,False,False,False
+2400,1201153.8729,"Archivists, curators, and museum technicians",25-4010,0.3969681060506628,False,False,False,False,False
+2435,3386542.7728,Librarians and media collections specialists,25-4022,0.5350877192982456,True,False,False,False,False
+2440,641367.9755000001,Library technicians,25-4031,0.5673076923076923,True,False,False,False,False
+2545,24861692.833,Teaching assistants,25-9040,0.5303030303030303,True,False,False,False,False
+2555,3015655.2458,Other educational instruction and library workers,25-90XX,0.5030819864552194,True,False,False,False,False
+2600,6085445.2556,Artists and related workers,27-1010,0.4854039965247611,False,False,False,False,False
+2631,227343.2355,Commercial and industrial designers,27-1021,0.4655172413793103,False,False,False,False,False
+2632,602638.4361,Fashion designers,27-1022,0.390625,False,False,False,False,False
+2633,1035662.2938,Floral designers,27-1023,0.1999999999999999,False,False,False,False,False
+2634,6212270.1433,Graphic designers,27-1024,0.5,True,False,False,False,False
+2635,2410472.6345,Interior designers,27-1025,0.5,True,False,False,False,False
+2636,496318.8043,Merchandise displayers and window trimmers,27-1026,0.3048780487804878,False,False,False,False,False
+2640,7993570.2232,Other designers,27-102X,0.4142798635780891,False,False,False,False,False
+2700,926795.3265,Actors,27-2011,0.1875,False,False,False,False,False
+2710,3784613.4981,Producers and directors,27-2012,0.4695853791598472,False,False,False,False,False
+2721,647547.2392,Athletes and sports competitors,27-2021,0.0,False,False,False,False,False
+2722,4246731.4183,Coaches and scouts,27-2022,0.3,False,False,False,False,False
+2723,157742.0085,"Umpires, referees, and other sports officials",27-2023,0.3125,False,False,False,False,False
+2740,221297.33179999999,Dancers and choreographers,27-2030,0.0890426880811496,False,False,False,False,False
+2751,903953.1514999999,Music directors and composers,27-2041,0.7105263157894737,True,True,True,False,False
+2752,2402029.4307,Musicians and singers,27-2042,0.4081632653061224,False,False,False,False,False
+2755,465110.7968,"Disc jockeys, except radio",27-2091,0.5263157894736842,True,False,False,False,False
+2805,368603.19659999997,Broadcast announcers and radio disc jockeys,27-3011,0.65,True,True,False,False,False
+2810,1569149.145,"News analysts, reporters, and journalists",27-3023,0.65,True,True,False,False,False
+2825,2494111.7589,Public relations specialists,27-3031,0.5909090909090909,True,False,False,False,False
+2830,2076306.369,Editors,27-3041,0.6470588235294118,True,True,False,False,False
+2840,1292793.195,Technical writers,27-3042,0.7,True,True,True,False,False
+2850,5351759.1273,Writers and authors,27-3043,0.8771367521367521,True,True,True,True,False
+2861,1888901.8386,Interpreters and translators,27-3091,0.88,True,True,True,True,False
+2862,592042.8457,Court reporters and simultaneous captioners,27-3092,0.9583333333333331,True,True,True,True,True
+2905,2040404.86,"Broadcast, sound, and lighting technicians",27-4010,0.42751881819729187,False,False,False,False,False
+2910,4037446.5129,Photographers,27-4021,0.3854166666666666,False,False,False,False,False
+2920,2102639.3134,"Television, video, and film camera operators and editors",27-4030,0.4806102324875791,False,False,False,False,False
+3000,1126672.1626,Chiropractors,29-1011,0.4545454545454546,False,False,False,False,False
+3010,3210180.7219,Dentists,29-1020,0.2418003440147799,False,False,False,False,False
+3030,2702793.9797,Dietitians and nutritionists,29-1031,0.5487804878048781,True,False,False,False,False
+3040,858595.8614,Optometrists,29-1041,0.3,False,False,False,False,False
+3050,8063366.8771,Pharmacists,29-1051,0.4285714285714285,False,False,False,False,False
+3090,20751415.3165,Other physicians,29-12XX,0.37244904438522547,False,False,False,False,False
+3100,1152918.2595,Surgeons,29-1240,0.37555139841566776,False,False,False,False,False
+3110,3655308.1861,Physician assistants,29-1071,0.2708333333333333,False,False,False,False,False
+3120,208898.9623,Podiatrists,29-1081,0.2857142857142857,False,False,False,False,False
+3140,269593.9888,Audiologists,29-1181,0.4545454545454546,False,False,False,False,False
+3150,3211648.6566,Occupational therapists,29-1122,0.2890151515151515,False,False,False,False,False
+3160,6144528.5945999995,Physical therapists,29-1123,0.1914893617021276,False,False,False,False,False
+3200,350110.6159,Radiation therapists,29-1124,0.2804878048780488,False,False,False,False,False
+3210,311321.6973,Recreational therapists,29-1125,0.3181818181818182,False,False,False,False,False
+3220,2429308.6525,Respiratory therapists,29-1126,0.2023809523809523,False,False,False,False,False
+3230,3931883.7296,Speech-language pathologists,29-1127,0.4512195121951219,False,False,False,False,False
+3245,5204213.2393000005,"Therapists, all other",29-1129,0.3656028368794326,False,False,False,False,False
+3250,1911503.2216,Veterinarians,29-1131,0.2702702702702703,False,False,False,False,False
+3255,70232433.869,Registered nurses,29-1141,0.38019000703729766,False,False,False,False,False
+3256,824931.9878,Nurse anesthetists,29-1151,0.1666666666666666,False,False,False,False,False
+3258,5894329.316000001,Nurse practitioners,29-1171,0.4814814814814814,False,False,False,False,False
+3261,500892.94440000004,Acupuncturists,29-1291,0.1666666666666666,False,False,False,False,False
+3270,313447.5021,"Healthcare diagnosing or treating practitioners, all other",29-1299,0.4963942307692307,False,False,False,False,False
+3300,6973488.0334,Clinical laboratory technologists and technicians,29-2010,0.25429725985221674,False,False,False,False,False
+3310,4570179.3973,Dental hygienists,29-1292,0.1875,False,False,False,False,False
+3321,1075097.8606,Cardiovascular technologists and technicians,29-2031,0.3571428571428571,False,False,False,False,False
+3322,1941083.4247,Diagnostic medical sonographers,29-2032,0.3026315789473684,False,False,False,False,False
+3323,4970642.0665,Radiologic technologists and technicians,29-2034,0.3771929824561403,False,False,False,False,False
+3324,1034299.675,Magnetic resonance imaging technologists,29-2035,0.3222222222222222,False,False,False,False,False
+3330,757909.8631,Nuclear medicine technologists and medical dosimetrists,29-203X,0.351019567261535,False,False,False,False,False
+3401,2370561.0378,Emergency medical technicians,29-2042,0.2083333333333333,False,False,False,False,False
+3402,2254738.4554,Paramedics,29-2043,0.1538461538461538,False,False,False,False,False
+3421,6492703.490999999,Pharmacy technicians,29-2052,0.4264705882352941,False,False,False,False,False
+3422,1367732.611,Psychiatric technicians,29-2053,0.12,False,False,False,False,False
+3423,2204885.2471000003,Surgical technologists,29-2055,0.0666666666666666,False,False,False,False,False
+3424,2476860.2558,Veterinary technologists and technicians,29-2056,0.1639344262295082,False,False,False,False,False
+3430,968879.2877,Dietetic technicians and ophthalmic medical technicians,29-205X,0.30058565369036955,False,False,False,False,False
+3500,11452300.9616,Licensed practical and licensed vocational nurses,29-2061,0.25,False,False,False,False,False
+3515,4180749.8745999997,Medical records specialists,29-2072,0.6176470588235294,True,True,False,False,False
+3520,976125.771,"Opticians, dispensing",29-2081,0.2857142857142857,False,False,False,False,False
+3545,3315041.5775,Miscellaneous health technologists and technicians,29-2090,0.3932168729906446,False,False,False,False,False
+3550,1977487.7913,Other healthcare practitioners and technical occupations,29-9000,0.3796725173736562,False,False,False,False,False
+3601,11495140.774799999,Home health aides,31-1121,0.0769230769230769,False,False,False,False,False
+3602,26176727.6937,Personal care aides,31-1122,0.2222222222222222,False,False,False,False,False
+3603,22852236.6607,Nursing assistants,31-1131,0.1016949152542373,False,False,False,False,False
+3605,853914.7131,Orderlies and psychiatric aides,31-113X,0.09869994806974124,False,False,False,False,False
+3610,672408.3866000001,Occupational therapy assistants and aides,31-2010,0.26488954755028615,False,False,False,False,False
+3620,1460595.015,Physical therapist assistants and aides,31-2020,0.1619653421053803,False,False,False,False,False
+3630,3363640.9033,Massage therapists,31-9011,0.074074074074074,False,False,False,False,False
+3640,6115793.2094,Dental assistants,31-9091,0.2666666666666666,False,False,False,False,False
+3645,10518336.5248,Medical assistants,31-9092,0.358974358974359,False,False,False,False,False
+3646,568165.8971000001,Medical transcriptionists,31-9094,0.875,True,True,True,True,False
+3647,596624.9878,Pharmacy aides,31-9095,0.38,False,False,False,False,False
+3648,918729.0637,Veterinary assistants and laboratory animal caretakers,31-9096,0.2222222222222222,False,False,False,False,False
+3649,2151919.3971,Phlebotomists,31-9097,0.1829268292682926,False,False,False,False,False
+3655,3890946.7755,Other healthcare support workers,31-909X,0.31789399115084205,False,False,False,False,False
+3700,993597.2907,First-line supervisors of correctional officers,33-1011,0.2826086956521739,False,False,False,False,False
+3710,2115252.1727,First-line supervisors of police and detectives,33-1012,0.3289473684210526,False,False,False,False,False
+3720,1273062.6213,First-line supervisors of firefighting and prevention workers,33-1021,0.4150943396226415,False,False,False,False,False
+3725,1702284.4135999999,First-line supervisors of security workers,33-1091,0.4047619047619047,False,False,False,False,False
+3740,6575799.689300001,Firefighters,33-2011,0.1403508771929824,False,False,False,False,False
+3750,711721.1919,Fire inspectors,33-2020,0.27697497814685323,False,False,False,False,False
+3801,387439.7401,Bailiffs,33-3011,0.0357142857142857,False,False,False,False,False
+3802,6129161.0525,Correctional officers and jailers,33-3012,0.2613636363636363,False,False,False,False,False
+3820,3164135.7772,Detectives and criminal investigators,33-3021,0.397410759175465,False,False,False,False,False
+3840,370755.8626,Parking enforcement workers,33-3041,0.3205128205128205,False,False,False,False,False
+3870,16537472.4603,Police officers,33-3050,0.3507435599970149,False,False,False,False,False
+3900,153683.1323,Animal control workers,33-9011,0.35,False,False,False,False,False
+3910,2057136.8018,Private detectives and investigators,33-9021,0.3888888888888888,False,False,False,False,False
+3930,15488305.4437,Security guards and gambling surveillance officers,33-9030,0.16885904589751644,False,False,False,False,False
+3940,645493.4043,Crossing guards and flaggers,33-9091,0.1052631578947368,False,False,False,False,False
+3945,914143.4779,Transportation security screeners,33-9093,0.26,False,False,False,False,False
+3946,649110.844,School bus monitors,33-9094,0.1666666666666666,False,False,False,False,False
+3960,596768.0734,Other protective service workers,33-909X,0.1752779896832838,False,False,False,False,False
+4000,9131046.3784,Chefs and head cooks,35-1011,0.2619047619047618,False,False,False,False,False
+4010,8283044.9294,First-line supervisors of food preparation and serving workers,35-1012,0.5111111111111112,True,False,False,False,False
+4020,31257664.159199998,Cooks,35-2010,0.07284472881337925,False,False,False,False,False
+4030,11705434.8741,Food preparation workers,35-2021,0.037037037037037,False,False,False,False,False
+4040,7607052.9262999995,Bartenders,35-3011,0.1944444444444444,False,False,False,False,False
+4055,5916977.9736,Fast food and counter workers,35-3023,0.0970394736842105,False,False,False,False,False
+4110,19504520.1702,Waiters and waitresses,35-3031,0.183673469387755,False,False,False,False,False
+4120,2678570.6815,"Food servers, nonrestaurant",35-3041,0.1296296296296296,False,False,False,False,False
+4130,2954511.7219000002,Dining room and cafeteria attendants and bartender helpers,35-9011,0.0,False,False,False,False,False
+4140,3192588.3073,Dishwashers,35-9021,0.0,False,False,False,False,False
+4150,1349699.4838,"Hosts and hostesses, restaurant, lounge, and coffee shop",35-9031,0.2285714285714285,False,False,False,False,False
+4200,6995834.8109,First-line supervisors of housekeeping and janitorial workers,37-1011,0.2653061224489795,False,False,False,False,False
+4210,5340685.3048,"First-line supervisors of landscaping, lawn service, and groundskeeping workers",37-1012,0.3545454545454545,False,False,False,False,False
+4220,40671240.6634,Janitors and building cleaners,37-201X,0.0,False,False,False,False,False
+4230,27760256.698,Maids and housekeeping cleaners,37-2012,0.0,False,False,False,False,False
+4240,2113069.3467,Pest control workers,37-2021,0.25,False,False,False,False,False
+4251,21584917.1614,Landscaping and groundskeeping workers,37-3011,0.024390243902439,False,False,False,False,False
+4252,1874271.9096,Tree trimmers and pruners,37-3013,0.0609756097560975,False,False,False,False,False
+4255,298545.87409999996,Other grounds maintenance workers,37-301X,0.026824555018284523,False,False,False,False,False
+4330,4993495.4816,Supervisors of personal care and service workers,39-1000,0.3974593883686835,False,False,False,False,False
+4340,1128368.464,Animal trainers,39-2011,0.1034482758620689,False,False,False,False,False
+4350,4472633.6451,Animal caretakers,39-2021,0.2727272727272727,False,False,False,False,False
+4400,1422393.8578,Gambling services workers,39-3010,0.14648275329389876,False,False,False,False,False
+4420,308770.1673,"Ushers, lobby attendants, and ticket takers",39-3031,0.1428571428571428,False,False,False,False,False
+4435,1802006.0924,Other entertainment attendants and related workers,39-30XX,0.18530317234497265,False,False,False,False,False
+4461,403247.4017,"Embalmers, crematory operators, and funeral attendants",39-40XX,0.15783641125173842,False,False,False,False,False
+4465,658373.1084,"Morticians, undertakers, and funeral arrangers",39-4031,0.1627906976744186,False,False,False,False,False
+4500,2359349.3199,Barbers,39-5011,0.1617647058823529,False,False,False,False,False
+4510,13815766.9256,"Hairdressers, hairstylists, and cosmetologists",39-5012,0.0789473684210526,False,False,False,False,False
+4521,5648787.5763,Manicurists and pedicurists,39-5092,0.0833333333333333,False,False,False,False,False
+4522,1922696.3598,Skincare specialists,39-5094,0.1969696969696969,False,False,False,False,False
+4525,469951.2143,Other personal appearance workers,39-509X,0.1253041527431771,False,False,False,False,False
+4530,1388404.4386,"Baggage porters, bellhops, and concierges",39-6010,0.33412054820505527,False,False,False,False,False
+4540,584572.1775,Tour and travel guides,39-7010,0.32461538461538464,False,False,False,False,False
+4600,16041860.8194,Childcare workers,39-9011,0.1414312039312039,False,False,False,False,False
+4621,4571082.5118,Exercise trainers and group fitness instructors,39-9031,0.0147058823529411,False,False,False,False,False
+4622,2044328.3237,Recreation workers,39-9032,0.238095238095238,False,False,False,False,False
+4640,399973.3993,Residential advisors,39-9041,0.24,False,False,False,False,False
+4700,62241167.5164,First-line supervisors of retail sales workers,41-1011,0.4864864864864865,False,False,False,False,False
+4710,24979769.1283,First-line supervisors of non-retail sales workers,41-1012,0.537037037037037,True,False,False,False,False
+4720,28980683.2032,Cashiers,41-2010,0.20967619030902226,False,False,False,False,False
+4740,1436788.1866000001,Counter and rental clerks,41-2021,0.532258064516129,True,False,False,False,False
+4750,1875497.9811,Parts salespersons,41-2022,0.3428571428571428,False,False,False,False,False
+4760,40284714.529,Retail salespersons,41-2031,0.3421052631578947,False,False,False,False,False
+4800,2427757.0542,Advertising sales agents,41-3011,0.5384615384615384,True,False,False,False,False
+4810,12232326.5493,Insurance sales agents,41-3021,0.5757575757575758,True,False,False,False,False
+4820,4883082.2864,"Securities, commodities, and financial services sales agents",41-3031,0.6057692307692308,True,True,False,False,False
+4830,1187601.0943,Travel agents,41-3041,0.5625,True,False,False,False,False
+4840,12450733.6654,"Sales representatives of services, except advertising, insurance, financial services, and travel",41-3091,0.6333333333333333,True,True,False,False,False
+4850,25199237.898199998,"Sales representatives, wholesale and manufacturing",41-4010,0.5976961778015077,True,False,False,False,False
+4900,437229.2907,"Models, demonstrators, and product promoters",41-9010,0.13640488343631532,False,False,False,False,False
+4920,22936574.7904,Real estate brokers and sales agents,41-9020,0.45057074408117254,False,False,False,False,False
+4930,878074.3355,Sales engineers,41-9031,0.5113636363636364,True,False,False,False,False
+4940,604253.3103,Telemarketers,41-9041,0.8055555555555555,True,True,True,True,False
+4950,1626205.5411,"Door-to-door sales workers, news and street vendors, and related workers",41-9091,0.2608695652173913,False,False,False,False,False
+5000,26132639.2728,First-line supervisors of office and administrative support workers,43-1011,0.4895833333333333,False,False,False,False,False
+5010,242979.7387,"Switchboard operators, including answering service",43-2011,0.6290322580645161,True,True,False,False,False
+5020,360139.5353,Telephone operators,43-2021,0.894736842105263,True,True,True,True,False
+5100,1978391.9074,Bill and account collectors,43-3011,0.6964285714285714,True,True,False,False,False
+5110,9890888.295,Billing and posting clerks,43-3021,0.7738095238095237,True,True,True,False,False
+5120,21680230.7712,"Bookkeeping, accounting, and auditing clerks",43-3031,0.8023255813953488,True,True,True,True,False
+5140,3035095.7064,Payroll and timekeeping clerks,43-3051,0.8378378378378379,True,True,True,True,False
+5150,646467.578,Procurement clerks,43-3061,0.6142857142857142,True,True,False,False,False
+5160,3757632.7057,Tellers,43-3071,0.5416666666666666,True,False,False,False,False
+5220,1720834.1647,"Court, municipal, and license clerks",43-4031,0.7,True,True,True,False,False
+5230,937693.2089,"Credit authorizers, checkers, and clerks",43-4041,0.65,True,True,False,False,False
+5240,45020994.7751,Customer service representatives,43-4051,0.5681818181818182,True,False,False,False,False
+5250,1591169.8478,"Eligibility interviewers, government programs",43-4061,0.68,True,True,False,False,False
+5260,2709889.0946,File clerks,43-4071,0.7941176470588235,True,True,True,False,False
+5300,2048613.7471999999,"Hotel, motel, and resort desk clerks",43-4081,0.5,True,False,False,False,False
+5310,3388818.4055,"Interviewers, except eligibility and loan",43-4111,0.6724137931034483,True,True,False,False,False
+5320,1258931.5753,"Library assistants, clerical",43-4121,0.5344827586206896,True,False,False,False,False
+5330,3441799.0052,Loan interviewers and clerks,43-4131,0.59375,True,False,False,False,False
+5340,287179.0441,New accounts clerks,43-4141,0.56,True,False,False,False,False
+5350,2260445.5317,Order clerks,43-4151,0.7142857142857143,True,True,True,False,False
+5360,1366141.8368,"Human resources assistants, except payroll and timekeeping",43-4161,0.6206896551724138,True,True,False,False,False
+5400,19934207.0734,Receptionists and information clerks,43-4171,0.5333333333333333,True,False,False,False,False
+5410,1949148.0267,Reservation and transportation ticket agents and travel clerks,43-4181,0.4571428571428571,False,False,False,False,False
+5500,394049.9073,Cargo and freight agents,43-5011,0.5273013150371642,True,False,False,False,False
+5510,15789691.3648,Couriers and messengers,43-5021,0.3103448275862069,False,False,False,False,False
+5521,1772375.369,Public safety telecommunicators,43-5031,0.65625,True,True,False,False,False
+5522,3790037.5991,"Dispatchers, except police, fire, and ambulance",43-5032,0.6739130434782609,True,True,False,False,False
+5530,489950.8879,"Meter readers, utilities",43-5041,0.4374999999999999,False,False,False,False,False
+5540,2167575.0185000002,Postal service clerks,43-5051,0.3148148148148147,False,False,False,False,False
+5550,6104406.2228999995,Postal service mail carriers,43-5052,0.2307692307692307,False,False,False,False,False
+5560,1424028.6343999999,"Postal service mail sorters, processors, and processing machine operators",43-5053,0.1,False,False,False,False,False
+5600,4446287.9456,"Production, planning, and expediting clerks",43-5061,0.5961538461538461,True,False,False,False,False
+5610,11969763.4426,"Shipping, receiving, and inventory clerks",43-5071,0.5,True,False,False,False,False
+5630,1016014.4077999999,"Weighers, measurers, checkers, and samplers, recordkeeping",43-5111,0.293103448275862,False,False,False,False,False
+5710,4902203.0712,Executive secretaries and executive administrative assistants,43-6011,0.6486486486486487,True,True,False,False,False
+5720,956664.2639,Legal secretaries and administrative assistants,43-6012,0.6956521739130435,True,True,False,False,False
+5730,1361586.8813,Medical secretaries and administrative assistants,43-6013,0.6666666666666666,True,True,False,False,False
+5740,39080017.1195,"Secretaries and administrative assistants, except legal, medical, and executive",43-6014,0.6442307692307693,True,True,False,False,False
+5810,4309243.4862,Data entry keyers,43-9021,0.8928571428571428,True,True,True,True,False
+5820,649943.3319,Word processors and typists,43-9022,0.7432432432432433,True,True,True,False,False
+5840,6006455.0845,Insurance claims and policy processing clerks,43-9041,0.8333333333333333,True,True,True,True,False
+5850,900510.0763,"Mail clerks and mail machine operators, except postal service",43-9051,0.2162162162162162,False,False,False,False,False
+5860,23287902.6406,"Office clerks, general",43-9061,0.5757575757575758,True,False,False,False,False
+5900,460702.2191,"Office machine operators, except computer",43-9071,0.3970588235294117,False,False,False,False,False
+5910,168045.1445,Proofreaders and copy markers,43-9081,0.975,True,True,True,True,True
+5920,684879.2565,Statistical assistants,43-9111,0.8913043478260869,True,True,True,True,False
+6005,1038434.572,"First-line supervisors of farming, fishing, and forestry workers",45-1011,0.2807017543859649,False,False,False,False,False
+6010,212439.67859999998,Agricultural inspectors,45-2011,0.2916666666666666,False,False,False,False,False
+6040,974930.6607,"Graders and sorters, agricultural products",45-2041,0.1,False,False,False,False,False
+6050,14083473.5266,Miscellaneous agricultural workers,45-2090,0.10842157779295958,False,False,False,False,False
+6115,550826.816,Fishing and hunting workers,45-3031,0.043859649122807,False,False,False,False,False
+6120,305976.5931,Forest and conservation workers,45-4011,0.0434782608695652,False,False,False,False,False
+6130,1007734.828,Logging workers,45-4020,0.1687876168523498,False,False,False,False,False
+6200,14334925.2076,First-line supervisors of construction trades and extraction workers,47-1011,0.41666666666666663,False,False,False,False,False
+6210,390588.5521,Boilermakers,47-2011,0.0303030303030303,False,False,False,False,False
+6220,2338922.8592,"Brickmasons, blockmasons, and stonemasons",47-2020,0.033062645011600875,False,False,False,False,False
+6230,24983100.4581,Carpenters,47-2031,0.1444444444444444,False,False,False,False,False
+6240,3098386.8082,"Carpet, floor, and tile installers and finishers",47-2040,0.05589349376114082,False,False,False,False,False
+6250,1441164.9559,"Cement masons, concrete finishers, and terrazzo workers",47-2050,0.0,False,False,False,False,False
+6260,42267116.5083,Construction laborers,47-2061,0.05,False,False,False,False,False
+6305,7656594.5082,Construction equipment operators,47-2070,0.04929080871982913,False,False,False,False,False
+6330,3418919.5148,"Drywall installers, ceiling tile installers, and tapers",47-2080,0.03619067677618641,False,False,False,False,False
+6355,17575661.3563,Electricians,47-2111,0.1463414634146341,False,False,False,False,False
+6360,822110.8574,Glaziers,47-2121,0.0833333333333333,False,False,False,False,False
+6400,1039803.5016,Insulation workers,47-2130,0.048165632586997555,False,False,False,False,False
+6410,12340487.167,Painters and paperhangers,47-2140,0.05694179354556708,False,False,False,False,False
+6441,909281.4394,Pipelayers,47-2151,0.0357142857142857,False,False,False,False,False
+6442,12181964.9243,"Plumbers, pipefitters, and steamfitters",47-2152,0.0753161698283649,False,False,False,False,False
+6460,427695.8244,Plasterers and stucco masons,47-2161,0.0769230769230769,False,False,False,False,False
+6515,4258933.1637,Roofers,47-2181,0.04,False,False,False,False,False
+6520,2471299.3286,Sheet metal workers,47-2211,0.0657894736842105,False,False,False,False,False
+6530,1122901.1939,Structural iron and steel workers,47-2221,0.0285714285714285,False,False,False,False,False
+6540,475135.7644,Solar photovoltaic installers,47-2231,0.11,False,False,False,False,False
+6600,845460.6381,"Helpers, construction trades",47-3010,0.009797287357674532,False,False,False,False,False
+6660,2108045.1152,Construction and building inspectors,47-4011,0.33410428931875524,False,False,False,False,False
+6700,914611.569,Elevator and escalator installers and repairers,47-4021,0.1842105263157894,False,False,False,False,False
+6710,790098.8285000001,Fence erectors,47-4031,0.0512820512820512,False,False,False,False,False
+6720,493439.0993,Hazardous materials removal workers,47-4041,0.0806451612903225,False,False,False,False,False
+6730,2103598.6264,Highway maintenance workers,47-4051,0.0161290322580645,False,False,False,False,False
+6740,353777.12179999996,Rail-track laying and maintenance equipment operators,47-4061,0.0,False,False,False,False,False
+6765,716540.8652,Miscellaneous construction and related workers,47-4090,0.1208333333333333,False,False,False,False,False
+6800,670729.4309,"Derrick, rotary drill, and service unit operators, oil and gas",47-5010,0.05180700619280889,False,False,False,False,False
+6825,564377.362,"Earth drillers, except oil and gas",47-5023,0.1363636363636363,False,False,False,False,False
+6835,246191.4217,"Explosives workers, ordnance handling experts, and blasters",47-5032,0.1354166666666666,False,False,False,False,False
+6850,723761.9429,Underground mining machine operators,47-5040,0.0063066614111154705,False,False,False,False,False
+6950,976778.9864,Other extraction workers,47-50XX,0.03480664104933386,False,False,False,False,False
+7000,5216681.0083,"First-line supervisors of mechanics, installers, and repairers",49-1011,0.4102564102564102,False,False,False,False,False
+7010,3615144.4336,"Computer, automated teller, and office machine repairers",49-2011,0.3673469387755101,False,False,False,False,False
+7020,2558550.7153,Radio and telecommunications equipment installers and repairers,49-2020,0.2691678317234367,False,False,False,False,False
+7030,149276.4552,Avionics technicians,49-2091,0.24,False,False,False,False,False
+7040,452981.1688,"Electric motor, power tool, and related repairers",49-2092,0.1057692307692307,False,False,False,False,False
+7100,496602.2109,"Electrical and electronics repairers, industrial and utility",49-209X,0.22835378802484063,False,False,False,False,False
+7120,497968.7115,Audiovisual equipment installers and repairers,49-2097,0.238095238095238,False,False,False,False,False
+7130,1309780.786,Security and fire alarm systems installers,49-2098,0.1666666666666666,False,False,False,False,False
+7140,3253080.4445,Aircraft mechanics and service technicians,49-3011,0.1343283582089552,False,False,False,False,False
+7150,2667948.3536,Automotive body and related repairers,49-3021,0.0425531914893617,False,False,False,False,False
+7160,571105.7162,Automotive glass installers and repairers,49-3022,0.0,False,False,False,False,False
+7200,17185431.3847,Automotive service technicians and mechanics,49-3023,0.0818181818181818,False,False,False,False,False
+7210,6881339.5749,Bus and truck mechanics and diesel engine specialists,49-3031,0.0,False,False,False,False,False
+7220,4949132.2868,Heavy vehicle and mobile equipment service technicians and mechanics,49-3040,0.10220789114216663,False,False,False,False,False
+7240,896883.4714,Small engine mechanics,49-3050,0.11031628627782468,False,False,False,False,False
+7260,1319945.1185,"Miscellaneous vehicle and mobile equipment mechanics, installers, and repairers",49-3090,0.017435560733726832,False,False,False,False,False
+7300,444448.6933,Control and valve installers and repairers,49-9010,0.13297182449613457,False,False,False,False,False
+7315,9428713.4121,"Heating, air conditioning, and refrigeration mechanics and installers",49-9021,0.1052631578947368,False,False,False,False,False
+7320,948904.0019,Home appliance repairers,49-9031,0.1454545454545454,False,False,False,False,False
+7330,8896499.845,Industrial and refractory machinery mechanics,49-904X,0.24031064999482846,False,False,False,False,False
+7340,12946343.1827,"Maintenance and repair workers, general",49-9071,0.1372549019607843,False,False,False,False,False
+7350,461689.40630000003,"Maintenance workers, machinery",49-9043,0.1428571428571428,False,False,False,False,False
+7360,977573.8669,Millwrights,49-9044,0.0217391304347826,False,False,False,False,False
+7410,2490505.7587,Electrical power-line installers and repairers,49-9051,0.0,False,False,False,False,False
+7420,2817010.8778,Telecommunications line installers and repairers,49-9052,0.03125,False,False,False,False,False
+7430,1257861.7458000001,Precision instrument and equipment repairers,49-9060,0.27676032392184313,False,False,False,False,False
+7510,631926.934,"Coin, vending, and amusement machine servicers and repairers",49-9091,0.3214285714285714,False,False,False,False,False
+7540,442278.2876,Locksmiths and safe repairers,49-9094,0.08,False,False,False,False,False
+7560,145319.2674,Riggers,49-9096,0.0,False,False,False,False,False
+7610,277497.0353,"Helpers--installation, maintenance, and repair workers",49-9098,0.0333333333333333,False,False,False,False,False
+7640,3771500.0567,"Other installation, maintenance, and repair workers",49-909X,0.1525225013123147,False,False,False,False,False
+7700,17230238.5895,First-line supervisors of production and operating workers,51-1011,0.4,False,False,False,False,False
+7720,2139836.0068,"Electrical, electronics, and electromechanical assemblers",51-2020,0.2222222222222222,False,False,False,False,False
+7730,123506.42510000001,Engine and other machine assemblers,51-2031,0.0952380952380952,False,False,False,False,False
+7740,301684.083,Structural metal fabricators and fitters,51-2041,0.0227272727272727,False,False,False,False,False
+7750,19772413.3468,Other assemblers and fabricators,51-20XX,0.05631684464911504,False,False,False,False,False
+7800,3990083.3268,Bakers,51-3011,0.2647058823529412,False,False,False,False,False
+7810,4755421.8747000005,"Butchers and other meat, poultry, and fish processing workers",51-3020,0.05237537515555228,False,False,False,False,False
+7830,163810.0038,"Food and tobacco roasting, baking, and drying machine operators and tenders",51-3091,0.0666666666666666,False,False,False,False,False
+7840,1570150.0728,Food batchmakers,51-3092,0.1153846153846153,False,False,False,False,False
+7850,126734.6415,Food cooking machine operators and tenders,51-3093,0.1290322580645161,False,False,False,False,False
+7905,1817382.172,Computer numerically controlled tool operators and programmers,51-9160,0.3262710390874947,False,False,False,False,False
+7925,580775.0282,"Forming machine setters, operators, and tenders, metal and plastic",51-4020,0.05870765572416014,False,False,False,False,False
+7950,1343603.4577,"Cutting, punching, and press machine setters, operators, and tenders, metal and plastic",51-4031,0.01,False,False,False,False,False
+8000,502854.3153,"Grinding, lapping, polishing, and buffing machine tool setters, operators, and tenders, metal and plastic",51-4033,0.064516129032258,False,False,False,False,False
+8025,184778.4267,"Other machine tool setters, operators, and tenders, metal and plastic",51-403X,0.04529564457319716,False,False,False,False,False
+8030,6503552.8068,Machinists,51-4041,0.2346938775510204,False,False,False,False,False
+8040,356603.1037,"Metal furnace operators, tenders, pourers, and casters",51-4050,0.08114856429463164,False,False,False,False,False
+8100,557993.1028,"Molders and molding machine setters, operators, and tenders, metal and plastic",51-4070,0.07521650287048749,False,False,False,False,False
+8130,807422.9223,Tool and die makers,51-4111,0.1875,False,False,False,False,False
+8140,10754519.7805,"Welding, soldering, and brazing workers",51-4120,0.08666318566560399,False,False,False,False,False
+8225,7272072.8285,Other metal workers and plastic workers,51-4XXX,0.10993421312108174,False,False,False,False,False
+8250,357981.6468,Prepress technicians and workers,51-5111,0.4375,False,False,False,False,False
+8255,3006524.8553,Printing press operators,51-5112,0.2875,False,False,False,False,False
+8256,165222.4089,Print binding and finishing workers,51-5113,0.0897435897435897,False,False,False,False,False
+8300,2296311.6562,Laundry and dry-cleaning workers,51-6011,0.05,False,False,False,False,False
+8310,384657.5145,"Pressers, textile, garment, and related materials",51-6021,0.0104166666666666,False,False,False,False,False
+8320,2620699.1802,Sewing machine operators,51-6031,0.0813953488372093,False,False,False,False,False
+8335,306288.7882,Shoe and leather workers,51-6040,0.06730479915751465,False,False,False,False,False
+8350,1061587.952,"Tailors, dressmakers, and sewers",51-6050,0.08489304812834222,False,False,False,False,False
+8365,329289.5292,"Textile machine setters, operators, and tenders",51-6060,0.12808029001074112,False,False,False,False,False
+8450,417588.5107,Upholsterers,51-6093,0.1911764705882352,False,False,False,False,False
+8465,344113.0227,"Other textile, apparel, and furnishings workers",51-609X,0.16463100109144724,False,False,False,False,False
+8500,1337445.75,Cabinetmakers and bench carpenters,51-7011,0.1176470588235294,False,False,False,False,False
+8510,254175.1815,Furniture finishers,51-7021,0.0285714285714285,False,False,False,False,False
+8530,449380.9914,"Sawing machine setters, operators, and tenders, wood",51-7041,0.0588235294117647,False,False,False,False,False
+8540,316826.9578,"Woodworking machine setters, operators, and tenders, except sawing",51-7042,0.0652173913043478,False,False,False,False,False
+8555,420386.4954,Other woodworkers,51-70XX,0.08209400104647331,False,False,False,False,False
+8600,629060.0926,"Power plant operators, distributors, and dispatchers",51-8010,0.21902071076837554,False,False,False,False,False
+8610,1578534.322,Stationary engineers and boiler operators,51-8021,0.1627906976744186,False,False,False,False,False
+8620,1980689.6031,Water and wastewater treatment plant and system operators,51-8031,0.125,False,False,False,False,False
+8630,851039.7217,Miscellaneous plant and system operators,51-8090,0.14751838867692527,False,False,False,False,False
+8640,1595245.8443,"Chemical processing machine setters, operators, and tenders",51-9010,0.1494088705004523,False,False,False,False,False
+8650,1567200.7671,"Crushing, grinding, polishing, mixing, and blending workers",51-9020,0.10421938282107773,False,False,False,False,False
+8710,1137654.5953,Cutting workers,51-9030,0.05965909090909083,False,False,False,False,False
+8720,409260.0885,"Extruding, forming, pressing, and compacting machine setters, operators, and tenders",51-9041,0.075,False,False,False,False,False
+8730,226563.8113,"Furnace, kiln, oven, drier, and kettle operators and tenders",51-9051,0.16,False,False,False,False,False
+8740,16267364.5034,"Inspectors, testers, sorters, samplers, and weighers",51-9061,0.4166666666666666,False,False,False,False,False
+8750,1030093.6950000001,Jewelers and precious stone and metal workers,51-9071,0.2053571428571428,False,False,False,False,False
+8760,1675903.6861999999,Dental and ophthalmic laboratory technicians and medical appliance technicians,51-9080,0.07424160300089472,False,False,False,False,False
+8800,5496019.5354,Packaging and filling machine operators and tenders,51-9111,0.0,False,False,False,False,False
+8810,3403388.7168,Painting workers,51-9120,0.04128314500236971,False,False,False,False,False
+8830,387990.9908,Photographic process workers and processing machine operators,51-9151,0.38,False,False,False,False,False
+8850,178514.5741,Adhesive bonding machine operators and tenders,51-9191,0.064516129032258,False,False,False,False,False
+8910,31712.7669,Etchers and engravers,51-9194,0.1363636363636363,False,False,False,False,False
+8920,398840.95160000003,"Molders, shapers, and casters, except metal and plastic",51-9195,0.07098155467720682,False,False,False,False,False
+8930,352797.4656,"Paper goods machine setters, operators, and tenders",51-9196,0.0,False,False,False,False,False
+8940,153909.10450000002,Tire builders,51-9197,0.0192307692307692,False,False,False,False,False
+8950,836793.1725999999,Helpers--production workers,51-9198,0.0888888888888888,False,False,False,False,False
+8990,24214172.9353,Other production workers,51-91XX,0.09220371367492879,False,False,False,False,False
+9005,7121593.848,Supervisors of transportation and material moving workers,53-1000,0.3,False,False,False,False,False
+9030,3736634.5525,Aircraft pilots and flight engineers,53-2010,0.31176143676143675,False,False,False,False,False
+9040,745877.9503,Air traffic controllers and airfield operations specialists,53-2020,0.3511911200043264,False,False,False,False,False
+9050,2286262.2434,Flight attendants,53-2031,0.1666666666666666,False,False,False,False,False
+9110,85957.1859,"Ambulance drivers and attendants, except emergency medical technicians",53-3011,0.0909090909090909,False,False,False,False,False
+9121,4869585.5093,"Bus drivers, school",53-3051,0.3235294117647059,False,False,False,False,False
+9122,4759453.6712,"Bus drivers, transit and intercity",53-3052,0.2407407407407407,False,False,False,False,False
+9130,70646485.5756,Driver/sales workers and truck drivers,53-3030,0.3101878043101758,False,False,False,False,False
+9141,962786.0608,Shuttle drivers and chauffeurs,53-3053,0.25,False,False,False,False,False
+9142,8136271.8366,Taxi drivers,53-3054,0.28125,False,False,False,False,False
+9210,1044440.5731,Locomotive engineers and operators,53-4010,0.27735470509556887,False,False,False,False,False
+9240,900620.8102,Railroad conductors and yardmasters,53-4031,0.2777777777777778,False,False,False,False,False
+9265,343243.85480000003,Other rail transportation workers,53-40XX,0.2780709132137703,False,False,False,False,False
+9300,506581.9182,Sailors and marine oilers,53-5011,0.0425531914893617,False,False,False,False,False
+9310,616177.7024,Ship and boat captains and operators,53-5020,0.24723502304147463,False,False,False,False,False
+9350,1129620.3053,Parking attendants,53-6021,0.1071428571428571,False,False,False,False,False
+9365,1173619.0703999999,Transportation service attendants,53-6030,0.13228411835748788,False,False,False,False,False
+9410,917210.6483,Transportation inspectors,53-6051,0.4125757575757576,False,False,False,False,False
+9415,270096.3361,Passenger attendants,53-6061,0.2222222222222222,False,False,False,False,False
+9430,780816.9037,Other transportation workers,53-60XX,0.16037359594416464,False,False,False,False,False
+9510,1218973.4995,Crane and tower operators,53-7021,0.1842105263157894,False,False,False,False,False
+9570,661802.9876,"Conveyor, dredge, and hoist and winch operators",53-70XX,0.101084672504223,False,False,False,False,False
+9600,12960114.6974,Industrial truck and tractor operators,53-7051,0.03125,False,False,False,False,False
+9610,4946038.2667,Cleaners of vehicles and equipment,53-7061,0.0833333333333333,False,False,False,False,False
+9620,36962809.8279,"Laborers and freight, stock, and material movers, hand",53-7062,0.0417391304347826,False,False,False,False,False
+9630,295561.1237,Machine feeders and offbearers,53-7063,0.0909090909090909,False,False,False,False,False
+9640,11429266.2061,"Packers and packagers, hand",53-7064,0.1,False,False,False,False,False
+9645,24851497.178,Stockers and order fillers,53-7065,0.1818181818181818,False,False,False,False,False
+9650,382719.5731,Pumping station operators,53-7070,0.12677871726129097,False,False,False,False,False
+9720,1928502.4912,Refuse and recyclable material collectors,53-7081,0.1964285714285714,False,False,False,False,False
+9760,1076498.6254,Other material moving workers,53-71XX,0.0714285714285714,False,False,False,False,False

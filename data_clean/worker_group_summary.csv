@@ -1,0 +1,7 @@
+group_id,sort_order,kind,threshold,selected_worker_share,worker_year_label,display_label
+china_top,0,china,,0.04671415737844796,2021-2022,China Shock Top 5%
+gpt_ge_50,1,gpt,0.5,0.26761202825409147,2021-2022,AI >= 50% tasks (26.8%)
+gpt_ge_60,2,gpt,0.6,0.10013599534734004,2021-2022,AI >= 60% tasks (10.0%)
+gpt_ge_70,3,gpt,0.7,0.050638775819082917,2021-2022,AI >= 70% tasks (5.1%)
+gpt_ge_80,4,gpt,0.8,0.033805397165690594,2021-2022,AI >= 80% tasks (3.4%)
+gpt_ge_90,5,gpt,0.9,0.004002976119922583,2021-2022,AI >= 90% tasks (0.4%)

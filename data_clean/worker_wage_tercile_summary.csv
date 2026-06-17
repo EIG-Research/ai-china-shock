@@ -1,0 +1,19 @@
+group_id,bucket,share
+china_top,Bottom Third,0.349117274751522
+china_top,Middle Third,0.3265701368187076
+china_top,Top Third,0.3243125884297703
+gpt_ge_50,Bottom Third,0.24798437190510722
+gpt_ge_50,Middle Third,0.32530193058674234
+gpt_ge_50,Top Third,0.42671369750815036
+gpt_ge_60,Bottom Third,0.23338652300690751
+gpt_ge_60,Middle Third,0.33986654893410617
+gpt_ge_60,Top Third,0.4267469280589864
+gpt_ge_70,Bottom Third,0.2081517156047036
+gpt_ge_70,Middle Third,0.30072513430829606
+gpt_ge_70,Top Third,0.49112315008700036
+gpt_ge_80,Bottom Third,0.19752063896292624
+gpt_ge_80,Middle Third,0.2781757925207145
+gpt_ge_80,Top Third,0.5243035685163593
+gpt_ge_90,Bottom Third,0.10127115456151733
+gpt_ge_90,Middle Third,0.25618970827478166
+gpt_ge_90,Top Third,0.642539137163701
