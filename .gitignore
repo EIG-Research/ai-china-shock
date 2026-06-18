@@ -24,5 +24,7 @@ data_raw/2022_annual_singlefile.zip
 data_raw/cps_2019_to_2025.csv.gz
 data_raw/cps_91_92_93.csv.gz
 
-# Large side folder not included in blog repo
-unemployment/
+unemployment/*.dta
+unemployment/*.csv
+unemployment/*.png
+unemployment/*.log

@@ -116,6 +116,30 @@ python analysis/geo_edu_bins.py
 
 If you run the individual scripts directly, use a Python environment where the packages in `requirements.txt` are installed.
 
+## Large Data Files Not Included In GitHub
+
+The following source files are not stored in the GitHub repository because they are too large. To rebuild the full project, download or recreate them and place each file at the exact path shown below.
+
+For the IPUMS files, create extracts from IPUMS CPS or IPUMS USA with the years and variables listed in the validation column, then rename the downloaded file to match the local path.
+
+| Local path | Source | Used for |
+| --- | --- | --- |
+| `data_raw/2022_annual_singlefile.zip` | [BLS QCEW 2022 annual single file](https://data.bls.gov/cew/data/files/2022/csv/2022_annual_singlefile.zip) | Commuting-zone industry employment for GPT geography exposure. |
+| `data_raw/cps_91_92_93.csv.gz` | IPUMS CPS extract | Historical worker assignment for China exposure, education, and wage figures. |
+| `data_raw/cps_2019_to_2025.csv.gz` | IPUMS CPS extract | Modern worker assignment for GPT exposure, education, and wage figures. |
+| `unemployment/cps_00180.dta` | IPUMS CPS ASEC extract | Unemployment-by-education chart. |
+| `unemployment/usa_00203-001.dta` | IPUMS USA extract | Unemployment-by-education chart. |
+
+Validation details:
+
+- `data_raw/2022_annual_singlefile.zip`: about 73 MB; ZIP member `2022.annual.singlefile.csv`; 3,619,437 rows; year 2022; required columns include `area_fips`, `own_code`, `industry_code`, `agglvl_code`, `size_code`, `year`, `qtr`, `annual_avg_emplvl`.
+- `data_raw/cps_91_92_93.csv.gz`: about 115 MB; 5,262,709 rows; years 1991-1993; months 1-12; required columns include `YEAR`, `MONTH`, `AGE`, `EMPSTAT`, `IND1990`, `OCC`, `EDUC`, `WTFINL`, `EARNWT`, `EARNWEEK2`.
+- `data_raw/cps_2019_to_2025.csv.gz`: about 203 MB; 8,896,721 rows; years 2019-2026 in the local copy; months 1-12; build scripts use 2021-2022 for the AI worker comparisons; required columns include `YEAR`, `MONTH`, `AGE`, `EMPSTAT`, `OCC`, `IND`, `EDUC`, `WTFINL`, `EARNWT`, `EARNWEEK2`.
+- `unemployment/cps_00180.dta`: about 551 MB; 10,130,204 rows; years 1962-2025; required columns include `year`, `asecwt`, `age`, `empstat`, `labforce`, `educ`.
+- `unemployment/usa_00203-001.dta`: about 2.3 GB; 54,753,969 rows; years 1940, 1950, 1960, 1970, 1980, 1990, 2000, 2010, 2019, 2024; required columns include `year`, `perwt`, `slwt`, `age`, `educ`, `educd`, `empstat`, `labforce`.
+
+The main `master.py` pipeline does not run the unemployment-by-education chart. To recreate that chart, place the two unemployment `.dta` files in `unemployment/`, set `PROJECT_ROOT` at the top of `unemployment/CensusAnalysis.do`, and run the `.do` file in Stata.
+
 ## Outputs
 
 Worker figures:
